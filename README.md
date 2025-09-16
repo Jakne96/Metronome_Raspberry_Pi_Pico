@@ -6,3 +6,4 @@ It contains diode to generate rhythm visually, buttons to change the tempo, and 
 Display is multiplexed by two BC546 transistors.
 For the embedded concepts, project uses interrupts for changing the tempo using buttons, and 2 timers, one to turn on and off the diode to generate the steady rhytm and the second to multiplex the 7 segment display to show 2 digits. It could be easily extended to 3 or 4 digits, using more transistors. Because of the use of 2 digits, tempo is limited to 30-99 BPM, secured by the if statement. 
 Next steps to improve the project would be to implement debouncing to the buttons, design a PCB and the case for the circuit.
+Video: https://youtu.be/KmnSHw4gB_Y
